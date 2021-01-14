@@ -55,9 +55,9 @@ function action(userChoice, computerChoice){
     if (userChoice == "Paper"){
         switch(computerChoice) {
             case "Rock":
-                return " covers ";
+                return " Covers ";
             case "Spock":
-                return " disproves ";
+                return " Disproves ";
 
         }
     }
@@ -201,5 +201,4 @@ function main() {
         game("Spock");
     })
 }
-
 main();
